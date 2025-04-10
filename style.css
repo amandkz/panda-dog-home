@@ -1,0 +1,71 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fff;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  header {
+    background: #f4f4f4;
+    padding: 40px 20px;
+  }
+  
+  .services, .contact {
+    padding: 30px 20px;
+  }
+  
+  .whatsapp-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #25D366;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  footer {
+    background: #f4f4f4;
+    padding: 20px;
+    color: #777;
+    font-size: 14px;
+  }
+  
+  .galeria {
+    padding: 40px 20px;
+    background-color: #fafafa;
+  }
+  
+  .galeria h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #444;
+  }
+  
+  .galeria-fotos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .galeria-fotos img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+  }
+  
+  .galeria-fotos img:hover {
+    transform: scale(1.05);
+  }
+  i {
+    margin-right: 8px;
+  }
+  
